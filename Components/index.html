@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Components</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="app">
+    <h1>Vue.js Cards</h1>
+    <div class="row">
+      <card v-for="(card, index) in cards" :index="index" :key="card.id" :title="card.title" :img="card.img" :text="card.text"></card>
+    </div>
+  </div>
+
+  <!-- Import Vue.js -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="./app.js" type="text/javascript"></script>
+
+</body>
+
+</html>

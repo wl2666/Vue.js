@@ -1,0 +1,24 @@
+body {
+  background: #f8f8f8;
+  color: #2c3e50;
+  font-family: 'Rubik', sans-serif;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 3.6em;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #337ab7;
+}
+.row {
+  margin-top: 20px;
+}
+.col-sm-2 {
+  margin: 0 auto;
+}
+.card {
+  text-align:center;
+}
