@@ -5,5 +5,10 @@ var app = new Vue({
 		bgc: {
 			backgroundColor: ''
 		}
+	},
+	methods: {
+		displayColor: function (event) {
+			this.bgc.backgroundColor = event.target.value;
+		}
 	}
 })
